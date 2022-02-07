@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="13" tests="13" time="0.353">
+    <testcase classname="Bank manager add customer" name="Check add customer is successful with valid credentials" time="0.033">
+        <skipped><![CDATA[Given user navigates to Bank manager login page.............................undefined
+And user verify page........................................................undefined
+When user click on Add Customer - top button................................undefined
+Then user enters <firstname> ,<lastname> and <postcode>.....................undefined
+And user click on Add Customer - bottom button..............................undefined
+And user click on OK button of the alert....................................undefined
+And user verify data........................................................undefined
+Then close executions.......................................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Bank manager add customer" name="Check add customer with all fields are empty" time="0.004">
+        <skipped><![CDATA[Given user navigates to Bank manager login page.............................undefined
+And user verify page........................................................undefined
+When user click on Add Customer - top button................................undefined
+Then user click on Add Customer - bottom button.............................undefined
+Then close executions.......................................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Bank manager add customer" name="Check add customer with First Name field is empty" time="0.001">
+        <skipped><![CDATA[Given user navigates to Bank manager login page.............................undefined
+And user verify page........................................................undefined
+When user click on Add Customer - top button................................undefined
+Then user enters <lastname> and <postcode>..................................undefined
+Then user click on Add Customer - bottom button.............................undefined
+Then close executions.......................................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Bank manager add customer" name="Check add customer with invalid First Name" time="0.002">
+        <skipped><![CDATA[Given user navigates to Bank manager login page.............................undefined
+And user verify page........................................................undefined
+When user click on Add Customer - top button................................undefined
+Then user enters <lastname>, <postcode> and <inFirstname>...................undefined
+And user click on Add Customer - bottom button..............................undefined
+Then user enter <Firstname> again...........................................undefined
+Then user click on Add Customer - bottom button.............................undefined
+Then close executions.......................................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Bank manager add customer" name="Check add customer with Last Name is empty" time="0.005">
+        <skipped><![CDATA[Given user navigates to Bank manager login page.............................undefined
+And user verify page........................................................undefined
+When user click on Add Customer - top button................................undefined
+Then user enters <firstname> and <postcode>.................................undefined
+Then user click on Add Customer - bottom button.............................undefined
+Then close executions.......................................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Bank manager add customer" name="Check add customer with invalid First Name" time="0.001">
+        <skipped><![CDATA[Given user navigates to Bank manager login page.............................undefined
+And user verify page........................................................undefined
+When user click on Add Customer - top button................................undefined
+Then user enters <firstname>, <postcode> and <inLastname>...................undefined
+And user click on Add Customer - bottom button..............................undefined
+Then user enter <Lastname> again............................................undefined
+Then user click on Add Customer - bottom button.............................undefined
+Then close executions.......................................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Bank manager add customer" name="Check add customer with Post Code is empty" time="0">
+        <skipped><![CDATA[Given user navigates to Bank manager login page.............................undefined
+And user verify page........................................................undefined
+When user click on Add Customer - top button................................undefined
+Then user enters <firstname> and <lastname>.................................undefined
+And user click on Add Customer - bottom button..............................undefined
+Then close executions.......................................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Bank manager add customer" name="Check add customer with invalid Post Code" time="0.001">
+        <skipped><![CDATA[Given user navigates to Bank manager login page.............................undefined
+And user verify page........................................................undefined
+When user click on Add Customer - top button................................undefined
+Then user enters <firstname> ,<lastname> and <inPostcode>...................undefined
+And user click on Add Customer - bottom button..............................undefined
+Then user enter <Lastname> again............................................undefined
+Then user click on Add Customer - bottom button.............................undefined
+Then close executions.......................................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Bank manager add customer" name="Check Open Account successful" time="0.001">
+        <skipped><![CDATA[Given user navigates to Bank manager login page.............................undefined
+And user verify page........................................................undefined
+When user click on Open Account button......................................undefined
+Then user select <customer> and <currency>..................................undefined
+And user click on Process button............................................undefined
+Then user click on OK button of the alert...................................undefined
+Then close executions.......................................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Bank manager add customer" name="Check open Account with all fields are empty" time="0">
+        <skipped><![CDATA[Given user navigates to Bank manager login page.............................undefined
+And user verify page........................................................undefined
+When user click on Open Account button......................................undefined
+Then user click on Process button...........................................undefined
+Then close executions.......................................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Bank manager add customer" name="Check open Account with empty Customer field" time="0.001">
+        <skipped><![CDATA[Given user navigates to Bank manager login page.............................undefined
+And user verify page........................................................undefined
+When user click on Open Account button......................................undefined
+Then user select <currency>.................................................undefined
+And user click on Process button............................................undefined
+Then close executions.......................................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Bank manager add customer" name="Check search customer that exits" time="0">
+        <skipped><![CDATA[Given user navigates to Bank manager login page.............................undefined
+And user verify page........................................................undefined
+When user click on Customers button.........................................undefined
+Then user enter <customer> in Search Customer input.........................undefined
+Then close executions.......................................................undefined
+]]></skipped>
+    </testcase>
+    <testcase classname="Bank manager add customer" name="Check search customer that does not exit" time="0">
+        <skipped><![CDATA[Given user navigates to Bank manager login page.............................undefined
+And user verify page........................................................undefined
+When user click on Customers button.........................................undefined
+Then user enter invalidate <customer> in Search Customer input..............undefined
+Then close executions.......................................................undefined
+]]></skipped>
+    </testcase>
+</testsuite>
